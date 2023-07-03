@@ -13,8 +13,8 @@ public class ScheduleService {
 
     private static final int PAGE_SIZE = 100;
 
-    private UserPointCacheService userPointCacheService;
-    private RedisEvictTargetRepository redisEvictTargetRepository;
+    private final UserPointCacheService userPointCacheService;
+    private final RedisEvictTargetRepository redisEvictTargetRepository;
 
     public ScheduleService(UserPointCacheService userPointCacheService,
         RedisEvictTargetRepository redisEvictTargetRepository) {
@@ -24,7 +24,7 @@ public class ScheduleService {
 
     @Scheduled(fixedDelay = 1000, initialDelay = 3000)
     @Transactional
-    public void scheduleTest() {
+    public void evictCorruptedCache() {
         var page = 0;
         while (true) {
             var today = LocalDate.now();

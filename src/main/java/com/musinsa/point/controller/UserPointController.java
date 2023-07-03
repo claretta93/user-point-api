@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Validated
 @RestController
-@RequestMapping("/api/v1")
+@RequestMapping("/api/v1/point")
 public class UserPointController {
 
     private final UserPointService userPointService;

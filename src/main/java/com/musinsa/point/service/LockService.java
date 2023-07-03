@@ -7,6 +7,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class LockService {
 
+    private static final String NONE = "0";
+
     private final RedisTemplate<String, String> redisTemplate;
 
     public LockService(RedisTemplate<String, String> redisTemplate) {
@@ -19,7 +21,7 @@ public class LockService {
 
     public boolean acquire(String key, long expireSeconds) {
         try {
-            var result = redisTemplate.opsForValue().setIfAbsent(key, "0", expireSeconds, TimeUnit.SECONDS);
+            var result = redisTemplate.opsForValue().setIfAbsent(key, NONE, expireSeconds, TimeUnit.SECONDS);
             return result != null && result;
         } catch (Exception e) {
             return true;
