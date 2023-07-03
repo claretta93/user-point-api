@@ -44,6 +44,7 @@ public class UserPointService {
 
     @Transactional
     public void addPoint(UserPointRequest request) {
+        // TODO : 회원정보 validation 필요
         validateRequest(request.getRequestId(), request.getRequestedBy(), PointStatus.ADD);
         try {
             userPointRepository.save(UserPointEntity.add(request));
