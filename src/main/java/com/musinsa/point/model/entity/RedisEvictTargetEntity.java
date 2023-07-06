@@ -1,4 +1,4 @@
-package com.musinsa.point.entity;
+package com.musinsa.point.model.entity;
 
 import com.musinsa.point.model.RedisEvictTargetStatus;
 import java.time.LocalDateTime;

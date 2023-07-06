@@ -1,6 +1,6 @@
-package com.musinsa.point.entity;
+package com.musinsa.point.model.entity;
 
-import com.musinsa.point.dto.UserPointRequest;
+import com.musinsa.point.model.dto.UserPointRequest;
 import com.musinsa.point.model.PointStatus;
 import java.time.LocalDate;
 import java.time.LocalDateTime;

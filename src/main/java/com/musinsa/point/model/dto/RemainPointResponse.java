@@ -1,4 +1,4 @@
-package com.musinsa.point.dto;
+package com.musinsa.point.model.dto;
 
 import lombok.Getter;
 

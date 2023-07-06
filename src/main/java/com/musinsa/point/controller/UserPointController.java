@@ -1,10 +1,10 @@
 package com.musinsa.point.controller;
 
-import com.musinsa.point.dto.DefaultResponse;
-import com.musinsa.point.dto.PageInfo;
-import com.musinsa.point.dto.PointHistoryPageResponse;
-import com.musinsa.point.dto.RemainPointResponse;
-import com.musinsa.point.dto.UserPointRequest;
+import com.musinsa.point.model.dto.DefaultResponse;
+import com.musinsa.point.model.dto.PageInfo;
+import com.musinsa.point.model.dto.PointHistoryPageResponse;
+import com.musinsa.point.model.dto.RemainPointResponse;
+import com.musinsa.point.model.dto.UserPointRequest;
 import com.musinsa.point.service.UserPointService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;

@@ -1,7 +1,7 @@
-package com.musinsa.point.dto;
+package com.musinsa.point.model.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.musinsa.point.entity.UserPointEntity;
+import com.musinsa.point.model.entity.UserPointEntity;
 import com.musinsa.point.model.PointStatus;
 import java.time.LocalDate;
 import lombok.Getter;

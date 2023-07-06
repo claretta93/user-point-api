@@ -1,7 +1,7 @@
 package com.musinsa.point.repository
 
-import com.musinsa.point.dto.UserPointRequest
-import com.musinsa.point.entity.UserPointEntity
+import com.musinsa.point.model.dto.UserPointRequest
+import com.musinsa.point.model.entity.UserPointEntity
 import com.musinsa.point.model.PointStatus
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest

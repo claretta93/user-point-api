@@ -2,7 +2,7 @@ package com.musinsa.point.service;
 
 import static java.lang.Math.max;
 
-import com.musinsa.point.entity.RedisEvictTargetEntity;
+import com.musinsa.point.model.entity.RedisEvictTargetEntity;
 import com.musinsa.point.model.PointStatus;
 import com.musinsa.point.model.RedisEvictTargetStatus;
 import com.musinsa.point.repository.RedisEvictTargetRepository;

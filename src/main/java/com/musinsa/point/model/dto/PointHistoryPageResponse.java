@@ -1,6 +1,6 @@
-package com.musinsa.point.dto;
+package com.musinsa.point.model.dto;
 
-import com.musinsa.point.entity.UserPointEntity;
+import com.musinsa.point.model.entity.UserPointEntity;
 import java.util.List;
 import java.util.stream.Collectors;
 import lombok.Getter;

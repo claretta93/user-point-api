@@ -1,7 +1,7 @@
 package com.musinsa.point.service
 
-import com.musinsa.point.dto.UserPointRequest
-import com.musinsa.point.entity.UserPointEntity
+import com.musinsa.point.model.dto.UserPointRequest
+import com.musinsa.point.model.entity.UserPointEntity
 import com.musinsa.point.exception.RequestDuplicatedException
 import com.musinsa.point.exception.RemainNotEnoughException
 import com.musinsa.point.exception.RequestNotFoundException

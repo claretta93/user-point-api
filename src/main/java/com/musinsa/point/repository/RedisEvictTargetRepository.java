@@ -1,6 +1,6 @@
 package com.musinsa.point.repository;
 
-import com.musinsa.point.entity.RedisEvictTargetEntity;
+import com.musinsa.point.model.entity.RedisEvictTargetEntity;
 import com.musinsa.point.model.RedisEvictTargetStatus;
 import java.time.LocalDateTime;
 import java.util.Optional;
